@@ -1,0 +1,21 @@
+/* bug.css */
+.container {
+  width: 50%;
+}
+
+.element {
+  width: calc(50% - 10px);
+  background-color: lightblue; 
+}
+
+/* bugSolution.css */
+.container {
+  width: 50%;
+}
+
+.element {
+  width: 40%; /* Adjust to the desired width accounting for padding and margins*/ 
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: lightgreen; 
+}
